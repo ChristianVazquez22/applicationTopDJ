@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.topdj"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.topdj.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.topdj.Info"
+            android:label="@string/title_activity_info" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.Principal"
+            android:label="@string/title_activity_principal" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.Hardwell"
+            android:label="@string/title_activity_hardwell" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.Avicii"
+            android:label="@string/title_activity_avicii" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.DavidGuetta"
+            android:label="@string/title_activity_david_guetta" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.DjTiesto"
+            android:label="@string/title_activity_dj_tiesto" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.ArminVanBuuren"
+            android:label="@string/title_activity_armin_van_buuren" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.Skrillex"
+            android:label="@string/title_activity_skrillex" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.SwedishHouseMafia"
+            android:label="@string/title_activity_swedish_house_mafia" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.NickyRomero"
+            android:label="@string/title_activity_nicky_romero" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.CalvinHarris"
+            android:label="@string/title_activity_calvin_harris" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.Afrojack"
+            android:label="@string/title_activity_afrojack" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.WebFaceHardwell"
+            android:label="@string/title_activity_web" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.WebYouHardwell"
+            android:label="@string/title_activity_web_you_hardwell" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.WebVidHarwell"
+            android:label="@string/title_activity_web_vid_harwell" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.WebBioHardwell"
+            android:label="@string/title_activity_web_bio_hardwell" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.WebFaceAvicii"
+            android:label="@string/title_activity_web_face_avicii" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.WebYouAvicii"
+            android:label="@string/title_activity_web_you_avicii" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.WebVidAvicii"
+            android:label="@string/title_activity_web_vid_avicii" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.WebBioAvicii"
+            android:label="@string/title_activity_web_bio_avicii" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.WebFaceDavid"
+            android:label="@string/title_activity_web_face_david" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.WebYouDavid"
+            android:label="@string/title_activity_web_you_david" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.WebVidDavid"
+            android:label="@string/title_activity_web_vid_david" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.WebBioDavid"
+            android:label="@string/title_activity_web_bio_david" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.VideoPromo"
+            android:label="@string/title_activity_video_promo" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.UsuRegistrar"
+            android:label="@string/title_activity_usu_registrar" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.Usu_registrar"
+            android:label="@string/title_activity_usu_registrar" >
+        </activity>
+        <activity
+            android:name="com.example.topdj.Consultar"
+            android:label="@string/title_activity_consultar" >
+        </activity>
+    </application>
+
+</manifest>
